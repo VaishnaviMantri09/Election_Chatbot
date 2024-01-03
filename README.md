@@ -1,4 +1,4 @@
-# AI-NLP-Chatbot
+# Election_Chatbot
 
 An NLP based Chatbot over a simple fully connected neural network architecture using Tensorflow and tflearn. Trained over a custom dataset specified in the JSON file.
 
