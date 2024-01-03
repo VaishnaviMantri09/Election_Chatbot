@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Farewell, hope I was of help! :)"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["who are you?", "what are you"],
+         "responses": ["I am an AI Chatbot for O2i, my work is to talk to you after analyzing what you have asked me and give you information about us."], 
+         "context_set": ""
+        },
+        {"tag": "election",
+         "patterns": ["difference between general elections and assembly elections?", "What is the difference between assembly elections and general elections?", "types of elections?", "what are type of elections?", "general elections", "assembly elections" ],
+         "responses": ["General Elections are held every five years, for the selection of Members of Parliament. The MPs are the representative of people who are elected directly by the people on the basis of Universal Adult Suffrage. General Elections are conducted in the entire country in different phases."], 
+         "context_set": ""
+        },
+        {"tag": "vote",
+         "patterns": ["Who can vote in India?", "who all can vote?", "voting age", "what is age of voting in india?", "who can vote?", "when is voting legal", "voting", "age criteria for voting", "voting"],
+         "responses": ["Any individual who is a citizen of the country and is above 18 years of age can vote in India."], 
+         "context_set": ""
+        },
+        {"tag": "card",
+         "patterns": ["What is a Voter ID Card?", "Tell me about Voter ID Card", "information of voterID", "VoterID", "voter ID", "What contains in voter ID?"],
+         "responses": ["A voter ID card which is also known as election card or Electors Photo Identity Card is a document of identification issued by the Election Commission of India. The purpose of the card is to serve as an identity proof Indian citizens while casting their vote in their respective Municipal, State or National elections."], 
+         "context_set": ""
+        },
+        {"tag": "articles",
+         "patterns": ["What is article 370", "tell me about article 370", "370", "article 370", "information regarding article 370", "what is article 370"],
+         "responses": ["Under Article 370 of the Indian Constitution, Jammu & Kashmir is granted autonomy. It gives special status to the state: Because of this article, residents of Kashmir follow separate set of laws in terms of citizenship, property ownership, and other rights."], 
+         "context_set": ""
+        },
+        {"tag": "register",
+         "patterns": ["How to register for voting?", "How can i register", "How to vote", "How to make Voting card" ],
+         "responses": ["Election commission of India offers online voter registration for Indian citizens who have attained the age of 18 on the qualifying date (1st of January of the year of revision of electoral roll). Citizen, can enroll himself/herself as General Voter and fill Form 6 online at National Voters' Service Portal."], 
+         "context_set": ""
+        },
+        {"tag": "requirements",
+         "patterns": ["Requirements for registering to vote", "What are requirements to vote", "requirements"],
+         "responses": [" You can enroll as a Voter if you: \n-> are an Indian citizen have attained the age of 18 years on the qualifying date i.e. 1st of January of the year of revision of electoral roll \n-> are ordinarily resident of the part/polling area of the constituency where you want to be enrolled \n-> are not disqualified to be enrolled as an elector."], 
+         "context_set": ""
+        },
+        {"tag": "electors",
+         "patterns": ["What are the main categories of electors in India? ", "Types of electors in India", "which types of electors are there", "How many types of electors are there?"],
+         "responses": ["There are 3 categories of electors in India: \n i). General electors,\n (ii). Overseas (NRI) electors \n (iii). Service Electors "], 
+         "context_set": ""
+        },
+        {"tag": "non",
+         "patterns": ["Can a non-resident Indian settled in foreign land become an elector of electoral roll in India?", "Rules for non-resident Indian"],
+         "responses": ["According to the provisions of Sec 20A of the Representation of People Act, 1950 by the Representation of the People (Amendment) Act, 2010, a person who is a citizen of India and who has not acquired the citizenship of any other country and is otherwise eligible to be registered as a voter and who is absenting from his place of ordinary residence in India owing to his employment, education or otherwise is eligible to be registered as a voter in the constituency in which his place of residence in India as mentioned in his passport is located."], 
+         "context_set": ""
+        },
+        {"tag": "service",
+         "patterns": ["Who is a service voter ?", "What is service voter?", "Who are service voter?"],
+         "responses": ["Service voter is a voter having service qualification. According to the provisions of sub – section (8) of Section 20 of Representation of People Act, 1950, service qualification means –\n(a) Being a member of the armed Forces of the Union ; or\n(b) Being a member of a force to which provisions of the Army Act, 1950 (46 of 1950), have been made applicable whether with or without modification ;\n(c) Being a member of an Armed Police Force of a State, and serving outside that state; or\n(d) Being a person who is employed under the Government of India, in a post outside India. "], 
+         "context_set": ""
+        },
+        {"tag": "serviceordinary",
+         "patterns": ["How is a service voter different from an ordinary elector?", "Service voter and odinary voter difference", "Difference between ordinary voter and service voter"],
+         "responses": ["While an ordinary elector is registered in the electoral roll of the constituency in which his place of ordinary residence is located, person having service qualification can get enrolled as ‘service voter’ at his native place even though he actually may be residing at a different place (of posting). He has, however, an option to get himself enrolled as general elector at the place of his posting where he factually, at the point of time, is residing ordinarily with his family for a sufficient span of time. "], 
+         "context_set": ""
+        },
+        {"tag": "army",
+         "patterns": ["Are members of all Armed Forces / Para Military Forces eligible to be enrolled as service voters?"],
+         "responses": ["As per the existing arrangements, members of Indian Army, Navy and Air Force and personnel of General Reserve Engineer Force (Border Road Organization), Border Security Force, Indo Tibetan Border Police, Assam Rifles, National Security Guards, Central Reserve Police Force, Central Industrial Security Force and Sashastra Seema Bal are eligible to be registered as service voters."], 
+         "context_set": ""
+        },
+        {"tag": "classified",
+         "patterns": ["Who is a Classified Service Voter?"],
+         "responses": ["Service voter belonging to Armed Forces or forces to which provisions of Army Act, 1950 are applicable, has 0ption of either voting through postal ballot or through a proxy voter duly appointed by him. A service voter who opts for voting through a proxy is called Classified Service Voter (CSV). "], 
+         "context_set": ""
+        }
+   ]
+}
